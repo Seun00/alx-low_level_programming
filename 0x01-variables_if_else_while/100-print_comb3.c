@@ -19,7 +19,7 @@ int main(void)
 			if (e != i && e < i)
 			{
 				putchar(e);
-		                putchar(i);
+				putchar(i);
 				if (i == 57 && e == 56)
 				{
 					break;
@@ -31,6 +31,6 @@ int main(void)
 		}
 		e++;
 	}
-	putchar('\n');
+	putchar('\n')
 	return (0);
 }
