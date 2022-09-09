@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Prints numbers between 00 to 89.
  *
@@ -7,24 +6,30 @@
  */
 int main(void)
 {
-	int i;
-	int j;
+	int i, e;
 
-	for (i = 10; i <= 19; 1++)
+	i = 48;
+	e = 48;
+
+	while (e < 58)
 	{
-		for (j = 10; j <= 19; j++)
+		i = 48;
+		while (i < 58)
 		{
-			if ((j % 10) > (i % 10))
+			if (e != i && e < i)
 			{
-				putchar((i % 10) + '0');
-				putchar((j % 10) + '0');
-				if (i != 18 || j != 19)
+				putchar(e);
+				putchar(i);
+				if (i == 57 && e == 56)
 				{
-					putchar(',');
-					putchar(' ');
+					break;
 				}
+				putchar(',');
+				putchar(' ');
 			}
+			i++;
 		}
+		e++;
 	}
 	putchar('\n');
 	return (0);
