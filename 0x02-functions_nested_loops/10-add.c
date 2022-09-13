@@ -6,4 +6,8 @@
  *
  * Return: sum of both integers
  */
-int add(int a,,
+int add(int a, int b)
+{
+	return(a + b);
+}
+
