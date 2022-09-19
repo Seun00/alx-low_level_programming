@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * is_numerical - check if it is a digit
  * @n: Number
@@ -21,6 +22,8 @@ int sign;
 
 sign = 1;
 number = 0;
+
+
 
 for (i = 0; s[i] != '\0'; i++)
 {
