@@ -1,12 +1,5 @@
 #include <stdio.h>
 
-/**
- * main - Entry point
- *
- * Description: 'the program's description'
- *
- * Return: Always 0 (sucess)
- */
 int main(void)
 {
 	int n;
@@ -18,7 +11,7 @@ int main(void)
 	/*
 	 * write your line of code here...
 	 * Remember:
-	 * - you are not allowed to use p
+	 * - you are not allowed to use a
 	 * - you are not allowed to modify p
 	 * - only one statement
 	 * - you are not allowed to code anything else than this line of code
