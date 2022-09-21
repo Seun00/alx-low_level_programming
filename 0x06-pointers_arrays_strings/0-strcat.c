@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * _strcat - concats two arrays
+ * _strcat - concatenates two strings
  *
- * _strcat - concats two arrays
+ * @dest: destination of concat
  * @src: source array to concat
  *
  * Return: char value
