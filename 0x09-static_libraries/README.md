@@ -1,1 +1,1 @@
-static libary
+C pointer arrays and string
