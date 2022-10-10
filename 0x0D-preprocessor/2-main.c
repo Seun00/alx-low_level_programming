@@ -1,7 +1,8 @@
-#include <stdio.h>
 #include <stdlib.h>
+#include <stdio.h>
 /**
- * main - main file returns file name
+ * main - print file name
+ *
  * Return: return 0 always
  */
 int main(void)
